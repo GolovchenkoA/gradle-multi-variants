@@ -1,0 +1,323 @@
+10:45:06 PM: Executing 'lib:outgoingVariants'...
+
+
+> Task :lib:outgoingVariants
+--------------------------------------------------
+Variant apiElements
+--------------------------------------------------
+API elements for the 'main' feature.
+
+Capabilities
+    - org.example:lib:0.0.1-SNAPSHOT (default capability)
+Attributes
+    - org.gradle.category                = library
+    - org.gradle.dependency.bundling     = external
+    - org.gradle.jvm.environment         = standard-jvm
+    - org.gradle.jvm.version             = 21
+    - org.gradle.libraryelements         = jar
+    - org.gradle.usage                   = java-api
+    - org.jetbrains.kotlin.platform.type = jvm
+Artifacts
+    - build\libs\lib-0.0.1-SNAPSHOT.jar (artifactType = jar)
+
+Secondary Variants (*)
+
+    --------------------------------------------------
+    Secondary Variant classes
+    --------------------------------------------------
+    Directories containing compiled class files for main.
+
+    Attributes
+        - org.gradle.category                = library
+        - org.gradle.dependency.bundling     = external
+        - org.gradle.jvm.environment         = standard-jvm
+        - org.gradle.jvm.version             = 21
+        - org.gradle.libraryelements         = classes
+        - org.gradle.usage                   = java-api
+        - org.jetbrains.kotlin.platform.type = jvm
+    Artifacts
+        - build\classes\kotlin\main (artifactType = java-classes-directory)
+        - build\classes\java\main (artifactType = java-classes-directory)
+        - build\classes\kotlin\main (artifactType = java-classes-directory)
+
+--------------------------------------------------
+Variant archives
+--------------------------------------------------
+Configuration for archive artifacts.
+
+Capabilities
+    - org.example:lib:0.0.1-SNAPSHOT (default capability)
+Artifacts
+    - build\libs\lib-0.0.1-SNAPSHOT.jar (artifactType = jar)
+
+--------------------------------------------------
+Variant default
+--------------------------------------------------
+Configuration for default artifacts.
+
+Capabilities
+    - org.example:lib:0.0.1-SNAPSHOT (default capability)
+Artifacts
+    - build\libs\lib-0.0.1-SNAPSHOT.jar (artifactType = jar)
+
+--------------------------------------------------
+Variant mainSourceElements (i)
+--------------------------------------------------
+List of source directories contained in the Main SourceSet.
+
+Capabilities
+    - org.example:lib:0.0.1-SNAPSHOT (default capability)
+Attributes
+    - org.gradle.category            = verification
+    - org.gradle.dependency.bundling = external
+    - org.gradle.verificationtype    = main-sources
+Artifacts
+    - src\main\java (artifactType = directory)
+    - src\main\kotlin (artifactType = directory)
+    - src\main\resources (artifactType = directory)
+
+--------------------------------------------------
+Variant runtimeElements
+--------------------------------------------------
+Runtime elements for the 'main' feature.
+
+Capabilities
+    - org.example:lib:0.0.1-SNAPSHOT (default capability)
+Attributes
+    - org.gradle.category                = library
+    - org.gradle.dependency.bundling     = external
+    - org.gradle.jvm.environment         = standard-jvm
+    - org.gradle.jvm.version             = 21
+    - org.gradle.libraryelements         = jar
+    - org.gradle.usage                   = java-runtime
+    - org.jetbrains.kotlin.platform.type = jvm
+Artifacts
+    - build\libs\lib-0.0.1-SNAPSHOT.jar (artifactType = jar)
+
+Secondary Variants (*)
+
+    --------------------------------------------------
+    Secondary Variant classes
+    --------------------------------------------------
+    Directories containing compiled class files for main.
+
+    Attributes
+        - org.gradle.category                = library
+        - org.gradle.dependency.bundling     = external
+        - org.gradle.jvm.environment         = standard-jvm
+        - org.gradle.jvm.version             = 21
+        - org.gradle.libraryelements         = classes
+        - org.gradle.usage                   = java-runtime
+        - org.jetbrains.kotlin.platform.type = jvm
+    Artifacts
+        - build\classes\java\main (artifactType = java-classes-directory)
+        - build\classes\kotlin\main (artifactType = java-classes-directory)
+
+    --------------------------------------------------
+    Secondary Variant resources
+    --------------------------------------------------
+    Directories containing assembled resource files for main.
+
+    Attributes
+        - org.gradle.category                = library
+        - org.gradle.dependency.bundling     = external
+        - org.gradle.jvm.environment         = standard-jvm
+        - org.gradle.jvm.version             = 21
+        - org.gradle.libraryelements         = resources
+        - org.gradle.usage                   = java-runtime
+        - org.jetbrains.kotlin.platform.type = jvm
+    Artifacts
+        - build\resources\main (artifactType = java-resources-directory)
+
+--------------------------------------------------
+Variant testResultsElementsForTest (i)
+--------------------------------------------------
+Directory containing binary results of running tests for the test Test Suite's test target.
+
+Capabilities
+    - org.example:lib:0.0.1-SNAPSHOT (default capability)
+Attributes
+    - org.gradle.category              = verification
+    - org.gradle.testsuite.name        = test
+    - org.gradle.testsuite.target.name = test
+    - org.gradle.testsuite.type        = unit-test
+    - org.gradle.verificationtype      = test-results
+Artifacts
+    - build\test-results\test\binary (artifactType = directory)
+
+--------------------------------------------------
+Variant variant1ApiElements
+--------------------------------------------------
+API elements for the 'variant1' feature.
+
+Capabilities
+    - org.example:capability-common:0.0.1-SNAPSHOT
+    - org.example:capability-one:0.0.1-SNAPSHOT
+Attributes
+    - org.gradle.category            = library
+    - org.gradle.dependency.bundling = external
+    - org.gradle.jvm.version         = 21
+    - org.gradle.libraryelements     = jar
+    - org.gradle.usage               = java-api
+Artifacts
+    - build\libs\lib-0.0.1-SNAPSHOT-variant1.jar (artifactType = jar, classifier = variant1)
+
+Secondary Variants (*)
+
+    --------------------------------------------------
+    Secondary Variant classes
+    --------------------------------------------------
+    Directories containing compiled class files for variant1.
+
+    Attributes
+        - org.gradle.category            = library
+        - org.gradle.dependency.bundling = external
+        - org.gradle.jvm.version         = 21
+        - org.gradle.libraryelements     = classes
+        - org.gradle.usage               = java-api
+    Artifacts
+        - build\classes\java\variant1 (artifactType = java-classes-directory)
+        - build\classes\kotlin\variant1 (artifactType = java-classes-directory)
+
+--------------------------------------------------
+Variant variant1RuntimeElements
+--------------------------------------------------
+Runtime elements for the 'variant1' feature.
+
+Capabilities
+    - org.example:capability-common:0.0.1-SNAPSHOT
+    - org.example:capability-one:0.0.1-SNAPSHOT
+Attributes
+    - org.gradle.category            = library
+    - org.gradle.dependency.bundling = external
+    - org.gradle.jvm.version         = 21
+    - org.gradle.libraryelements     = jar
+    - org.gradle.usage               = java-runtime
+Artifacts
+    - build\libs\lib-0.0.1-SNAPSHOT-variant1.jar (artifactType = jar, classifier = variant1)
+
+Secondary Variants (*)
+
+    --------------------------------------------------
+    Secondary Variant classes
+    --------------------------------------------------
+    Directories containing compiled class files for variant1.
+
+    Attributes
+        - org.gradle.category            = library
+        - org.gradle.dependency.bundling = external
+        - org.gradle.jvm.version         = 21
+        - org.gradle.libraryelements     = classes
+        - org.gradle.usage               = java-runtime
+    Artifacts
+        - build\classes\java\variant1 (artifactType = java-classes-directory)
+        - build\classes\kotlin\variant1 (artifactType = java-classes-directory)
+
+    --------------------------------------------------
+    Secondary Variant resources
+    --------------------------------------------------
+    Directories containing assembled resource files for variant1.
+
+    Attributes
+        - org.gradle.category            = library
+        - org.gradle.dependency.bundling = external
+        - org.gradle.jvm.version         = 21
+        - org.gradle.libraryelements     = resources
+        - org.gradle.usage               = java-runtime
+    Artifacts
+        - build\resources\variant1 (artifactType = java-resources-directory)
+
+--------------------------------------------------
+Variant variant2ApiElements
+--------------------------------------------------
+API elements for the 'variant2' feature.
+
+Capabilities
+    - org.example:capability-common:0.0.1-SNAPSHOT
+    - org.example:capability-two:0.0.1-SNAPSHOT
+Attributes
+    - org.gradle.category            = library
+    - org.gradle.dependency.bundling = external
+    - org.gradle.jvm.version         = 21
+    - org.gradle.libraryelements     = jar
+    - org.gradle.usage               = java-api
+Artifacts
+    - build\libs\lib-0.0.1-SNAPSHOT-variant2.jar (artifactType = jar, classifier = variant2)
+
+Secondary Variants (*)
+
+    --------------------------------------------------
+    Secondary Variant classes
+    --------------------------------------------------
+    Directories containing compiled class files for variant2.
+
+    Attributes
+        - org.gradle.category            = library
+        - org.gradle.dependency.bundling = external
+        - org.gradle.jvm.version         = 21
+        - org.gradle.libraryelements     = classes
+        - org.gradle.usage               = java-api
+    Artifacts
+        - build\classes\java\variant2 (artifactType = java-classes-directory)
+        - build\classes\kotlin\variant2 (artifactType = java-classes-directory)
+
+--------------------------------------------------
+Variant variant2RuntimeElements
+--------------------------------------------------
+Runtime elements for the 'variant2' feature.
+
+Capabilities
+    - org.example:capability-common:0.0.1-SNAPSHOT
+    - org.example:capability-two:0.0.1-SNAPSHOT
+Attributes
+    - org.gradle.category            = library
+    - org.gradle.dependency.bundling = external
+    - org.gradle.jvm.version         = 21
+    - org.gradle.libraryelements     = jar
+    - org.gradle.usage               = java-runtime
+Artifacts
+    - build\libs\lib-0.0.1-SNAPSHOT-variant2.jar (artifactType = jar, classifier = variant2)
+
+Secondary Variants (*)
+
+    --------------------------------------------------
+    Secondary Variant classes
+    --------------------------------------------------
+    Directories containing compiled class files for variant2.
+
+    Attributes
+        - org.gradle.category            = library
+        - org.gradle.dependency.bundling = external
+        - org.gradle.jvm.version         = 21
+        - org.gradle.libraryelements     = classes
+        - org.gradle.usage               = java-runtime
+    Artifacts
+        - build\classes\java\variant2 (artifactType = java-classes-directory)
+        - build\classes\kotlin\variant2 (artifactType = java-classes-directory)
+
+    --------------------------------------------------
+    Secondary Variant resources
+    --------------------------------------------------
+    Directories containing assembled resource files for variant2.
+
+    Attributes
+        - org.gradle.category            = library
+        - org.gradle.dependency.bundling = external
+        - org.gradle.jvm.version         = 21
+        - org.gradle.libraryelements     = resources
+        - org.gradle.usage               = java-runtime
+    Artifacts
+        - build\resources\variant2 (artifactType = java-resources-directory)
+
+(i) Configuration uses incubating attributes such as Category.VERIFICATION.
+(*) Secondary variants are variants created via the Configuration#getOutgoing(): ConfigurationPublications API which also participate in selection, in addition to the configuration itself.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.6/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 200ms
+1 actionable task: 1 executed
+10:45:06 PM: Execution finished 'lib:outgoingVariants'.
