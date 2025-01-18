@@ -1,7 +1,7 @@
 The project demonstrates Gradle features "variants" and "capabilities"
 
 
-To see project outgoing variants and capabilities execute:
+To see [project outgoing variants](https://docs.gradle.org/current/userguide/variant_model.html#sec:variant-visual) and capabilities execute:
 
 ```cmd
 gradlew lib:outgoingVariants
@@ -35,6 +35,7 @@ dependencies {
 
 
 Links:
+
 [Understanding Gradle #17 – Feature Variants](https://www.youtube.com/watch?v=XCzyUESaBHQ)
 
 [Understanding Gradle #11 – Capability Conflicts](https://www.youtube.com/watch?v=5g20kbbqBFk&list=PLWQK2ZdV4Yl2k2OmC_gsjDpdIBTN0qqkE&index=11)
