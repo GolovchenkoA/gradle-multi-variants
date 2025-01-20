@@ -9,7 +9,7 @@ gradlew lib:outgoingVariants
 
 Publishing:
 ```cmd
-gradlew publishToMavenLocal
+gradlew build publishToMavenLocal
 ```
 
 In a consumer project update build.gradle(.kts):
